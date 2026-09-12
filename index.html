@@ -1,276 +1,160 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Clear, independent bankruptcy information and fresh-start resources.">
-<title>Bankruptcy Court Data | Real Information. A Brighter Tomorrow.</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Clear, independent bankruptcy information and fresh-start resources.">
+  <title>Bankruptcy Court Data | Clear Information for a Fresh Start</title>
+  <link rel="stylesheet" href="/styles.css?v=7">
 </head>
 <body>
+<header class="site-header">
+  <div class="top wrap">
+    <a class="brand" href="/">
+      <img src="/bcd-logo.png" alt="Bankruptcy Court Data Information Service logo">
+      <span class="brand-copy">
+        <strong>Bankruptcy Court Data</strong>
+        <small>INFORMATION SERVICE</small>
+      </span>
+    </a>
 
-<header>
- <div class="top wrap">
-  <a class="brand logo-only" href="/"><img src="bcd-logo.png" alt="Bankruptcy Court Data Information Service logo"></a>
-  <div class="header-search"><input placeholder="Search articles, questions, or topics..."><span>⌕</span></div>
-  <div class="minor"><a href="#about">About</a><a href="#resources">Resources</a><a href="#contact">Contact</a></div>
-  <button class="menu" id="menu">☰</button>
- </div>
+    <div class="header-search">
+      <input type="search" placeholder="Search articles, questions, or topics..." aria-label="Search">
+      <span class="search-word">Search</span>
+    </div>
 
- <nav id="nav"><div class="wrap navlinks">
-  <a class="active" href="/">Home</a>
-  <a href="#considering">Considering Bankruptcy</a>
-  <a href="/chapter-7/">Chapter 7</a>
-  <a href="/chapter-13/">Chapter 13</a>
-  <a href="#filed">Just Filed</a>
-  <a href="#meeting">341 Meeting</a>
-  <a href="#discharge">Discharge</a>
-  <a href="#after">Life After Bankruptcy</a>
- </div></nav>
+    <div class="minor">
+      <a href="#about">About</a>
+      <a href="#resources">Resources</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <button class="menu" id="menu" type="button" aria-label="Open navigation">Menu</button>
+  </div>
+
+  <nav id="nav">
+    <div class="wrap navlinks">
+      <a class="active" href="/">Home</a>
+      <a href="#considering">Considering Bankruptcy</a>
+      <a href="/chapter-7/">Chapter 7</a>
+      <a href="#chapter13">Chapter 13</a>
+      <a href="#filed">Just Filed</a>
+      <a href="#meeting">341 Meeting</a>
+      <a href="#discharge">Discharge</a>
+      <a href="#after">Life After Bankruptcy</a>
+    </div>
+  </nav>
 </header>
 
 <main>
+  <section class="hero">
+    <div class="wrap hero-content">
+      <h1>Clear Information<br>for a Fresh Start</h1>
+      <p>Bankruptcy Court Data (BCD) is a free, independent resource that provides clear, reliable information to help you understand bankruptcy and move forward with confidence.</p>
+      <form class="big-search" onsubmit="return false;">
+        <input type="search" placeholder="What would you like to know?" aria-label="Search BCD">
+        <button type="submit">Search</button>
+      </form>
+      <div class="popular">
+        <b>Popular searches:</b>
+        <a href="/chapter-7/">Chapter 7 process</a>
+        <a href="#meeting">341 meeting</a>
+        <a href="#car">Buy a car after bankruptcy</a>
+        <a href="#after">Rebuild credit</a>
+      </div>
+    </div>
+  </section>
 
-<section class="hero">
- <div class="wrap hero-content">
-  <h1>Clear Information<br>for a Fresh Start</h1>
-  <p>Bankruptcy Court Data (BCD) is a free, independent resource that provides clear, reliable information to help you understand bankruptcy and move forward with confidence.</p>
+  <section class="wrap topics" id="resources">
+    <h2>Explore by Topic</h2>
+    <p class="sub">Find the information you need at every stage of the bankruptcy journey.</p>
 
-  <form class="big-search">
-   <span>⌕</span>
-   <input placeholder="What would you like to know?">
-   <button>Search</button>
-  </form>
+    <div class="topic-grid">
+      <a class="topic" id="considering" href="#"><span class="topic-mark">01</span><b>Considering Bankruptcy</b><p>Understand your options and what to expect.</p><em>Learn more</em></a>
+      <a class="topic" id="chapter7" href="/chapter-7/"><span class="topic-mark">07</span><b>Chapter 7</b><p>Learn how Chapter 7 works and what the process may involve.</p><em>Learn more</em></a>
+      <a class="topic" id="chapter13" href="#"><span class="topic-mark">13</span><b>Chapter 13</b><p>Understand repayment plans and key differences.</p><em>Learn more</em></a>
+      <a class="topic" id="filed" href="#"><span class="topic-mark">02</span><b>Just Filed</b><p>What happens after you file for bankruptcy.</p><em>Learn more</em></a>
+      <a class="topic" id="meeting" href="#"><span class="topic-mark">341</span><b>341 Meeting</b><p>What to expect at your meeting of creditors.</p><em>Learn more</em></a>
+      <a class="topic" id="discharge" href="#"><span class="topic-mark">03</span><b>Discharge</b><p>Understand the discharge process and what comes next.</p><em>Learn more</em></a>
+      <a class="topic" id="after" href="#"><span class="topic-mark">04</span><b>Life After Bankruptcy</b><p>Rebuild your credit and move toward your goals.</p><em>Learn more</em></a>
+      <a class="topic" id="car" href="#"><span class="topic-mark">05</span><b>Buying a Car</b><p>Learn about vehicle financing after bankruptcy.</p><em>Learn more</em></a>
+      <a class="topic" href="#"><span class="topic-mark">06</span><b>Housing &amp; Homeownership</b><p>Explore your path to renting or buying a home.</p><em>Learn more</em></a>
+      <a class="topic" href="#calculator"><span class="topic-mark">+</span><b>Tools &amp; Resources</b><p>Calculators, checklists, FAQs, and more.</p><em>Learn more</em></a>
+    </div>
+  </section>
 
-  <div class="popular">
-   <b>Popular searches:</b>
-   <a href="/chapter-7/">Chapter 7 process</a>
-   <i>|</i>
-   <a href="#meeting">341 meeting</a>
-   <i>|</i>
-   <a href="#car">Buy a car after bankruptcy</a>
-   <i>|</i>
-   <a href="#after">Rebuild credit</a>
-  </div>
+  <section class="wrap split">
+    <div class="calc-promo" id="calculator">
+      <div>
+        <h2>Debt &amp; Bankruptcy<br>Situation Calculator</h2>
+        <p>Get a simple look at your financial situation and explore educational resources.</p>
+        <button id="openCalc" type="button">Try the Calculator</button>
+        <small>Free. No personal information required.</small>
+      </div>
+    </div>
 
-  <div class="fresh">A Fresh Start<br>Is Possible</div>
- </div>
-</section>
+    <div class="articles">
+      <div class="article-head"><h2>Popular Articles</h2><a href="#">View All Articles</a></div>
+      <ol>
+        <li><a href="#">Chapter 7 vs. Chapter 13: Key Differences Explained</a></li>
+        <li><a href="#">What to Expect at Your 341 Meeting</a></li>
+        <li><a href="#">How Long Does Bankruptcy Stay on Your Credit Report?</a></li>
+        <li><a href="#">Can I Buy a Car After Bankruptcy?</a></li>
+        <li><a href="#">What Happens After You Receive a Discharge?</a></li>
+      </ol>
+    </div>
+  </section>
 
-<section class="wrap topics" id="resources">
- <h2>Explore by Topic</h2>
- <p class="sub">Find the information you need at every stage of the bankruptcy journey.</p>
+  <section class="calculator-panel wrap" id="calcPanel" hidden>
+    <div class="calcbox">
+      <button class="close" id="closeCalc" type="button">Close</button>
+      <h2>Debt Situation Calculator</h2>
+      <p>Enter monthly amounts. This is an educational snapshot only.</p>
+      <form id="debtForm">
+        <label>Take-home income<input id="income" type="number" min="0" required></label>
+        <label>Essential expenses<input id="expenses" type="number" min="0" required></label>
+        <label>Debt payments<input id="payments" type="number" min="0" required></label>
+        <label>Total unsecured debt<input id="debt" type="number" min="0"></label>
+        <button type="submit">Calculate</button>
+      </form>
+      <div id="result" hidden><b id="resultText"></b><p id="resultMsg"></p></div>
+      <small>This calculator does not determine whether you should file bankruptcy and is not legal or financial advice.</small>
+    </div>
+  </section>
 
- <div class="topic-grid">
+  <section class="wrap process">
+    <h2>The Bankruptcy Process</h2>
+    <div class="steps">
+      <div><span>1</span><b>Consider Your Options</b></div>
+      <div><span>2</span><b>File Your Petition</b></div>
+      <div><span>3</span><b>Attend Your 341 Meeting</b></div>
+      <div><span>4</span><b>Receive Your Discharge</b></div>
+      <div><span>5</span><b>Rebuild Your Future</b></div>
+    </div>
+  </section>
 
-  <a class="topic" id="considering" href="#">
-   <span class="icon">▤</span>
-   <b>Considering<br>Bankruptcy</b>
-   <p>Understand your options and what to expect.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="chapter7" href="/chapter-7/">
-   <span class="icon">⚖</span>
-   <b>Chapter 7</b>
-   <p>Learn how Chapter 7 works and if it may be right for you.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="chapter13" href="/chapter-13/">
-   <span class="icon">▣</span>
-   <b>Chapter 13</b>
-   <p>Understand the process, repayment plans, and key differences.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="filed" href="#">
-   <span class="icon">▦</span>
-   <b>Just Filed</b>
-   <p>What happens after you file for bankruptcy.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="meeting" href="#">
-   <span class="icon">♟</span>
-   <b>341 Meeting</b>
-   <p>What to expect at your meeting of creditors.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="discharge" href="#">
-   <span class="icon">✓</span>
-   <b>Discharge</b>
-   <p>Understand the discharge process and what comes next.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="after" href="#">
-   <span class="icon">▥</span>
-   <b>Life After Bankruptcy</b>
-   <p>Rebuild your credit and move toward your goals.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" id="car" href="#">
-   <span class="icon">◆</span>
-   <b>Buying a Car</b>
-   <p>Learn your options for financing a vehicle after bankruptcy.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" href="#">
-   <span class="icon">⌂</span>
-   <b>Housing &<br>Homeownership</b>
-   <p>Explore your path to renting or buying a home.</p>
-   <i>›</i>
-  </a>
-
-  <a class="topic" href="#calculator">
-   <span class="icon">⚙</span>
-   <b>Tools & Resources</b>
-   <p>Calculators, checklists, FAQs, and more.</p>
-   <i>›</i>
-  </a>
-
- </div>
-</section>
-
-<section class="wrap split">
-
- <div class="calc-promo" id="calculator">
-  <div class="calc-icon">▦</div>
-  <div>
-   <h2>Debt & Bankruptcy<br>Situation Calculator</h2>
-   <p>Get a simple look at your financial situation and explore educational resources.</p>
-   <button id="openCalc">Try the Calculator →</button>
-   <small>Free. No personal information required.</small>
-  </div>
- </div>
-
- <div class="articles">
-  <div class="article-head">
-   <h2>▤ &nbsp; Popular Articles</h2>
-   <a href="#">View All Articles →</a>
-  </div>
-
-  <ol>
-   <li><a href="#">Chapter 7 vs. Chapter 13: Key Differences Explained</a></li>
-   <li><a href="#">What to Expect at Your 341 Meeting</a></li>
-   <li><a href="#">How Long Does Bankruptcy Stay on Your Credit Report?</a></li>
-   <li><a href="#">Can I Buy a Car After Bankruptcy?</a></li>
-   <li><a href="#">What Happens After You Receive a Discharge?</a></li>
-  </ol>
- </div>
-
-</section>
-
-<section class="calculator-panel wrap" id="calcPanel" hidden>
- <div class="calcbox">
-  <button class="close" id="closeCalc">×</button>
-  <h2>Debt Situation Calculator</h2>
-  <p>Enter monthly amounts. This is an educational snapshot only.</p>
-
-  <form id="debtForm">
-   <label>Take-home income
-    <input id="income" type="number" min="0" placeholder="$ 4,500" required>
-   </label>
-
-   <label>Essential expenses
-    <input id="expenses" type="number" min="0" placeholder="$ 3,000" required>
-   </label>
-
-   <label>Debt payments
-    <input id="payments" type="number" min="0" placeholder="$ 900" required>
-   </label>
-
-   <label>Total unsecured debt
-    <input id="debt" type="number" min="0" placeholder="$ 25,000">
-   </label>
-
-   <button>Calculate</button>
-  </form>
-
-  <div id="result" hidden>
-   <b id="resultText"></b>
-   <p id="resultMsg"></p>
-  </div>
-
-  <small>This calculator does not determine whether you should file bankruptcy and is not legal or financial advice.</small>
- </div>
-</section>
-
-<section class="wrap process">
- <h2>The Bankruptcy Process</h2>
-
- <div class="steps">
-  <div><span>▤</span><b>1. Consider<br>Your Options</b></div>
-  <i>→</i>
-  <div><span>▧</span><b>2. File Your<br>Petition</b></div>
-  <i>→</i>
-  <div><span>♟</span><b>3. Attend Your<br>341 Meeting</b></div>
-  <i>→</i>
-  <div><span>✓</span><b>4. Receive<br>Your Discharge</b></div>
-  <i>→</i>
-  <div><span>▥</span><b>5. Rebuild<br>Your Future</b></div>
- </div>
-</section>
-
-<section class="wrap promise" id="about">
-
- <div>
-  <span>♡</span>
-  <p><b>Free & Independent<br>Information</b></p>
- </div>
-
- <div>
-  <span>♢</span>
-  <p><b>Easy-to-Understand<br>Resources</b></p>
- </div>
-
- <div>
-  <span>▤</span>
-  <p><b>Trusted, Reliable<br>Sources</b></p>
- </div>
-
- <div>
-  <span>✓</span>
-  <p><b>Focused on Your<br>Fresh Start</b></p>
- </div>
-
-</section>
-
+  <section class="wrap promise" id="about">
+    <div><span>01</span><p><b>Free &amp; Independent Information</b></p></div>
+    <div><span>02</span><p><b>Easy-to-Understand Resources</b></p></div>
+    <div><span>03</span><p><b>Trusted, Reliable Sources</b></p></div>
+    <div><span>04</span><p><b>Focused on Your Fresh Start</b></p></div>
+  </section>
 </main>
 
 <footer id="contact">
- <div class="wrap footer">
-
-  <div class="brand light logo-only">
-   <img src="bcd-logo.png" alt="Bankruptcy Court Data Information Service logo">
+  <div class="wrap footer">
+    <a class="brand footer-brand" href="/">
+      <img src="/bcd-logo.png" alt="Bankruptcy Court Data Information Service logo">
+      <span class="brand-copy"><strong>Bankruptcy Court Data</strong><small>INFORMATION SERVICE</small></span>
+    </a>
+    <div class="footerlinks">
+      <p><a href="#about">About</a> | <a href="#resources">Resources</a> | <a href="#contact">Contact</a></p>
+      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="#">Disclaimers</a></p>
+    </div>
+    <p class="disclaimer">Bankruptcy Court Data (BCD) is an independent information resource and is not affiliated with any government agency or court.</p>
   </div>
-
-  <div class="footerlinks">
-   <p>
-    <a href="#about">About</a> |
-    <a href="#">Articles</a> |
-    <a href="#resources">Resources</a> |
-    <a href="#contact">Contact</a>
-   </p>
-
-   <p>
-    <a href="#">Privacy Policy</a> |
-    <a href="#">Terms of Use</a> |
-    <a href="#">Disclaimers</a>
-   </p>
-  </div>
-
-  <p class="disclaimer">
-   Bankruptcy Court Data (BCD) is an independent information resource and is not affiliated with any government agency or court.
-  </p>
-
- </div>
 </footer>
 
-<script src="script.js"></script>
-
+<script src="/script.js?v=7"></script>
 </body>
 </html>
