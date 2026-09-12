@@ -3165,3 +3165,17 @@ footer{
     flex-direction: column;
   }
 }
+/* Life After Bankruptcy page width alignment */
+.life-hero .page-shell,
+.life-start-section .page-shell,
+.credit-rebuild-feature .page-shell,
+.life-account-section .page-shell,
+.life-goals-section .page-shell,
+.life-education-section .page-shell,
+.life-guides-section .page-shell,
+.life-sources-section .page-shell {
+  width: calc(100% - 48px);
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
