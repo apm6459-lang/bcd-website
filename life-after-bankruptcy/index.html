@@ -16,32 +16,61 @@
 <body>
 
   <!-- HEADER -->
-  <header class="site-header">
-    <div class="header-inner">
+ <header class="site-header">
 
-      <a class="brand" href="/">
-        <img src="/bcd-logo.png" alt="Bankruptcy Court Data">
-        <div class="brand-copy">
-          <strong>Bankruptcy Court Data</strong>
-          <span>INFORMATION SERVICE</span>
-        </div>
-      </a>
+  <div class="top wrap">
 
-      <div class="header-actions">
-        <button class="search-button" type="button" aria-label="Search">
-          <span class="search-icon"></span>
-          <span>Search</span>
-        </button>
+    <a class="brand" href="/">
+      <img src="/bcd-logo.png" alt="Bankruptcy Court Data Information Service logo">
 
-        <nav class="utility-nav" aria-label="Utility navigation">
-          <a href="#about">About</a>
-          <a href="#resources">Resources</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+      <span class="brand-copy">
+        <strong>Bankruptcy Court Data</strong>
+        <small>INFORMATION SERVICE</small>
+      </span>
+    </a>
+
+    <div class="header-search">
+      <input
+        type="search"
+        placeholder="Search articles, questions, or topics..."
+        aria-label="Search"
+      >
+      <span class="search-word">Search</span>
+    </div>
+
+    <div class="minor">
+      <a href="/#about">About</a>
+      <a href="/#resources">Resources</a>
+      <a href="/#contact">Contact</a>
+    </div>
+
+    <button
+      class="menu"
+      id="menu"
+      type="button"
+      aria-label="Open navigation"
+    >
+      Menu
+    </button>
+
+  </div>
+
+  <nav id="nav">
+    <div class="wrap navlinks">
+
+      <a href="/">Home</a>
+      <a href="/considering-bankruptcy/">Considering Bankruptcy</a>
+      <a href="/chapter-7/">Chapter 7</a>
+      <a href="/chapter-13/">Chapter 13</a>
+      <a href="/just-filed/">Just Filed</a>
+      <a href="/341-meeting/">341 Meeting</a>
+      <a class="active" href="/discharge/">Discharge</a>
+      <a href="/#after">Life After Bankruptcy</a>
 
     </div>
-  </header>
+  </nav>
+
+</header>
 
 
   <!-- MAIN NAVIGATION -->
