@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Bankruptcy Court Data provides clear, independent bankruptcy education, tools, and fresh-start resources.">
+<title>Bankruptcy Court Data | Clear Information for a Fresh Start</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="wrap nav">
+    <a class="brand" href="#top"><span class="logo">BCD</span><span><b>BANKRUPTCY COURT DATA</b><small>Independent Information Service</small></span></a>
+    <button id="menuBtn" class="menu">☰</button>
+    <nav id="navLinks">
+      <a href="#understand">Understand Bankruptcy</a>
+      <a href="#chapter7">Chapter 7</a>
+      <a href="#chapter13">Chapter 13</a>
+      <a href="#after">Life After Bankruptcy</a>
+      <a href="#calculator">Tools</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">Independent bankruptcy education and fresh-start resources</p>
+      <h1>Clear Information for a Fresh Start.</h1>
+      <p class="lead">Understand what bankruptcy means, what may happen next, and what steps can help you move forward. BCD is designed to make complicated bankruptcy information easier to understand.</p>
+      <div class="buttons">
+        <a class="btn primary" href="#understand">Explore Bankruptcy Resources</a>
+        <a class="btn secondary" href="#calculator">Try the Debt Calculator</a>
+      </div>
+      <p class="fine">BCD is not a court, law firm, trustee, lender, or government agency.</p>
+    </div>
+    <div class="journey">
+      <h2>Where are you in the process?</h2>
+      <a href="#considering"><span>1</span><div><b>Considering Bankruptcy</b><small>Understand the basics and common options.</small></div></a>
+      <a href="#chapter7"><span>2</span><div><b>Chapter 7</b><small>Learn how the Chapter 7 process generally works.</small></div></a>
+      <a href="#chapter13"><span>3</span><div><b>Chapter 13</b><small>Explore repayment-plan basics and common questions.</small></div></a>
+      <a href="#after"><span>4</span><div><b>Life After Bankruptcy</b><small>Rebuilding credit, transportation, housing, and more.</small></div></a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="understand">
+  <div class="wrap">
+    <p class="eyebrow">Start here</p>
+    <h2>Understand the bankruptcy journey</h2>
+    <p class="intro">Choose the stage that best matches where you are today.</p>
+    <div class="cards">
+      <article id="considering"><div class="ico">?</div><h3>Considering Bankruptcy</h3><p>Learn common terms, questions to ask, and how Chapter 7 and Chapter 13 differ.</p><a href="#popular">View resources →</a></article>
+      <article id="chapter7"><div class="ico">7</div><h3>Chapter 7</h3><p>Understand filing, the 341 meeting, discharge timing, and common Chapter 7 questions.</p><a href="#popular">Explore Chapter 7 →</a></article>
+      <article id="chapter13"><div class="ico">13</div><h3>Chapter 13</h3><p>Learn how repayment plans work, how long Chapter 13 can last, and what happens along the way.</p><a href="#popular">Explore Chapter 13 →</a></article>
+      <article id="after"><div class="ico">↗</div><h3>Life After Bankruptcy</h3><p>Explore rebuilding credit, buying a vehicle, renting, and preparing for homeownership.</p><a href="#popular">Explore fresh-start resources →</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="calculator">
+  <div class="wrap calc-grid">
+    <div>
+      <p class="eyebrow">Free educational tool</p>
+      <h2>Debt Situation Calculator</h2>
+      <p class="intro">Get a simple view of how much of your monthly take-home income is being used by debt payments and essential expenses.</p>
+      <ul><li>No account required</li><li>No credit check</li><li>No personal identifying information requested</li></ul>
+      <p class="fine">Educational only. This tool does not determine whether you should file bankruptcy and is not legal or financial advice.</p>
+    </div>
+    <div class="calc">
+      <form id="debtForm">
+        <label>Monthly take-home income<div class="money"><span>$</span><input id="income" type="number" min="0" step=".01" placeholder="4500" required></div></label>
+        <label>Essential monthly expenses<div class="money"><span>$</span><input id="expenses" type="number" min="0" step=".01" placeholder="3000" required></div></label>
+        <label>Monthly debt payments<div class="money"><span>$</span><input id="payments" type="number" min="0" step=".01" placeholder="900" required></div></label>
+        <label>Total unsecured debt<div class="money"><span>$</span><input id="debt" type="number" min="0" step=".01" placeholder="25000"></div></label>
+        <button class="btn primary full">Calculate My Situation</button>
+      </form>
+      <div id="result" class="result" hidden>
+        <h3>Your educational snapshot</h3>
+        <div class="results">
+          <div><small>Debt payment burden</small><b id="burden">—</b></div>
+          <div><small>Monthly amount remaining</small><b id="remaining">—</b></div>
+          <div><small>Simple payoff estimate*</small><b id="years">—</b></div>
+        </div>
+        <p id="message"></p>
+        <small>*Simple estimate using current monthly debt payments and no additional interest or fees.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="popular">
+  <div class="wrap">
+    <p class="eyebrow">Popular questions</p>
+    <h2>Start with the questions people ask most</h2>
+    <div class="articles">
+      <article><span>Chapter 7</span><h3>How long does Chapter 7 bankruptcy take?</h3><p>A plain-English overview of the typical process from filing through discharge and closing.</p><a href="#">Coming soon →</a></article>
+      <article><span>341 Meeting</span><h3>What happens at a 341 meeting?</h3><p>Learn what the meeting is, what questions may be asked, and how consumers usually prepare.</p><a href="#">Coming soon →</a></article>
+      <article><span>Fresh Start</span><h3>What should I do after bankruptcy discharge?</h3><p>Explore practical next steps for rebuilding credit, transportation, housing, and financial stability.</p><a href="#">Coming soon →</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="section trust">
+  <div class="wrap trust-grid">
+    <div><p class="eyebrow">Built for clarity</p><h2>Bankruptcy information should be easier to understand.</h2><p>BCD is being built as an independent consumer resource focused on clear explanations, useful tools, and practical fresh-start education.</p></div>
+    <div class="trust-list"><div><b>Independent</b><span>Not a court or government agency.</span></div><div><b>Educational</b><span>Designed to explain, not pressure.</span></div><div><b>Practical</b><span>Resources for the entire bankruptcy journey.</span></div><div><b>Transparent</b><span>Sponsored services should be clearly identified.</span></div></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap footer-grid">
+    <div><div class="brand"><span class="logo">BCD</span><span><b>BANKRUPTCY COURT DATA</b><small>Independent Information Service</small></span></div><p>Clear bankruptcy education and fresh-start resources.</p></div>
+    <div><b>Explore</b><a href="#considering">Considering Bankruptcy</a><a href="#chapter7">Chapter 7</a><a href="#chapter13">Chapter 13</a><a href="#after">Life After Bankruptcy</a></div>
+    <div><b>Tools</b><a href="#calculator">Debt Calculator</a><a href="#popular">Popular Resources</a></div>
+  </div>
+  <div class="wrap legal"><p>Bankruptcy Court Data is an independent information service and is not affiliated with any U.S. Bankruptcy Court, government agency, bankruptcy trustee, law firm, or lender. Information on this site is for general educational purposes and is not legal, financial, tax, or credit advice.</p><p>© 2026 Bankruptcy Court Data.</p></div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
