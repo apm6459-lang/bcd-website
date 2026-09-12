@@ -22,3 +22,26 @@ footer .logo-only img{width:84px;height:84px}
 .all-questions{padding:30px 0;border-top:1px solid #e0eaf1}.simple-links{display:grid;grid-template-columns:1fr 1fr;gap:0 30px;margin-top:18px}.simple-links a{padding:12px 4px;border-bottom:1px solid #e1e9ef;color:#075b96;font-weight:700;font-size:14px}.ch7-disclaimer{margin-bottom:30px;background:#f3f7fa;border-radius:8px;padding:18px 22px}.ch7-disclaimer strong{color:var(--navy)}.ch7-disclaimer p{display:inline;margin-left:10px;font-size:13px;line-height:1.5}
 @media(max-width:900px){.ch7-intro-grid{grid-template-columns:1fr}.ch7-visual{display:none}.question-grid{grid-template-columns:1fr 1fr}.guide-grid{grid-template-columns:1fr}.ch7-intro h1{font-size:38px}}
 @media(max-width:550px){.question-grid,.simple-links{grid-template-columns:1fr}.section-title-row{align-items:flex-start;flex-direction:column}.ch7-intro h1{font-size:34px}.ch7-disclaimer p{display:block;margin:8px 0 0}}
+
+/* Small BCD branding + Chapter 7 hero corrections */
+.brand-with-name{display:flex!important;align-items:center;gap:12px;text-decoration:none}
+.brand-with-name .brand-name{display:flex;flex-direction:column;line-height:1.05;color:#0d1f3c}
+.brand-with-name .brand-name strong{font-family:Georgia,serif;font-size:22px;white-space:nowrap}
+.brand-with-name .brand-name small{font-size:9px;letter-spacing:2.3px;margin-top:5px;white-space:nowrap}
+footer .brand-with-name .brand-name{color:#fff}
+
+.court-visual{background:linear-gradient(145deg,#f7f9fb,#dce5ed)!important;min-height:300px;justify-content:center!important;gap:18px;border:1px solid #d3dde5}
+.court-visual:before,.court-visual:after{display:none!important}
+.court-building{width:230px;position:relative;z-index:2;filter:drop-shadow(0 8px 8px rgba(13,31,60,.12))}
+.court-roof{height:0;border-left:115px solid transparent;border-right:115px solid transparent;border-bottom:54px solid #71869a;position:relative}
+.court-roof:after{content:"";position:absolute;left:-105px;top:45px;width:210px;height:10px;background:#5d7387}
+.court-columns{height:115px;margin:10px 22px 0;display:flex;justify-content:space-between}
+.court-columns span{width:28px;background:linear-gradient(90deg,#7f93a5,#b6c3ce,#758a9d);border-radius:2px}
+.court-steps{height:28px;background:linear-gradient(#71869a 0 25%,transparent 25% 35%,#657b8f 35% 60%,transparent 60% 70%,#536b80 70%);margin-top:0}
+.court-label{text-align:center;z-index:3;color:#0d1f3c;display:flex;flex-direction:column}
+.court-label strong{font-family:Georgia,serif;font-size:27px;letter-spacing:4px}
+.court-label span{font-size:12px;letter-spacing:5px;margin-top:5px}
+@media(max-width:760px){
+ .brand-with-name .brand-name strong{font-size:17px}
+ .brand-with-name .brand-name small{font-size:7px;letter-spacing:1.6px}
+}
