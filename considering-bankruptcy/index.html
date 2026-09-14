@@ -24,6 +24,131 @@
     href="/styles.css?v=9"
   >
 
+  <style>
+
+    /* CONSIDERING BANKRUPTCY PAGE ONLY */
+
+    .considering-calculator {
+      background:#eef8ff;
+      border-top:1px solid #c9e2f3;
+      border-bottom:1px solid #c9e2f3;
+      padding:55px 0;
+    }
+
+    .considering-calculator-grid {
+      display:grid;
+      grid-template-columns:minmax(0, 1.35fr) minmax(300px, .65fr);
+      gap:60px;
+      align-items:center;
+    }
+
+    .considering-calculator-icon {
+      width:62px;
+      height:62px;
+      border:3px solid #0070c0;
+      border-radius:10px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#0070c0;
+      background:#fff;
+      font-size:34px;
+      font-weight:700;
+      margin-bottom:20px;
+    }
+
+    .considering-calculator h2 {
+      margin:0 0 14px;
+      color:#173a5e;
+      font-size:32px;
+      line-height:1.15;
+    }
+
+    .considering-calculator-copy {
+      max-width:720px;
+      margin:0 0 24px;
+      font-size:17px;
+      line-height:1.65;
+      color:#294b6c;
+    }
+
+    .considering-calculator-button {
+      display:inline-block;
+      background:#0070c0;
+      color:#fff;
+      text-decoration:none;
+      font-weight:700;
+      padding:15px 22px;
+      border-radius:6px;
+      line-height:1.25;
+    }
+
+    .considering-calculator-button:hover {
+      text-decoration:none;
+    }
+
+    .considering-calculator-note {
+      margin:12px 0 0;
+      font-size:14px;
+      color:#526b82;
+    }
+
+    .considering-calculator-benefits {
+      background:#fff;
+      border:1px solid #c9e2f3;
+      border-radius:10px;
+      padding:28px 32px;
+      box-shadow:0 4px 16px rgba(13,31,60,.05);
+    }
+
+    .considering-calculator-benefits h3 {
+      margin:0 0 20px;
+      color:#173a5e;
+      font-size:21px;
+    }
+
+    .considering-calculator-benefits p {
+      margin:0 0 16px;
+      line-height:1.5;
+      color:#294b6c;
+    }
+
+    .considering-calculator-benefits p:last-child {
+      margin-bottom:0;
+    }
+
+    .considering-answers .wrap {
+      max-width:1300px;
+    }
+
+    .considering-answers .discharge-answer {
+      max-width:none;
+      width:100%;
+    }
+
+    @media (max-width:800px) {
+
+      .considering-calculator {
+        padding:40px 0;
+      }
+
+      .considering-calculator-grid {
+        grid-template-columns:1fr;
+        gap:30px;
+      }
+
+      .considering-calculator h2 {
+        font-size:28px;
+      }
+
+      .considering-calculator-benefits {
+        padding:24px;
+      }
+
+    }
+
+  </style>
+
 </head>
 
 
@@ -166,9 +291,9 @@
         ),
         url('/considering-bankruptcy-hero.png');
 
-      background-size: cover;
-      background-position: center right;
-      background-repeat: no-repeat;
+      background-size:cover;
+      background-position:center right;
+      background-repeat:no-repeat;
     "
   >
 
@@ -466,18 +591,18 @@
 
 
 
-  <!-- DEBT CALCULATOR CTA -->
+  <!-- BANKRUPTCY & DEBT CALCULATOR -->
 
-  <section class="discharge-account">
+  <section class="considering-calculator">
 
-    <div class="wrap discharge-account-grid">
+    <div class="wrap considering-calculator-grid">
 
 
       <div>
 
-        <span class="discharge-account-icon">
+        <div class="considering-calculator-icon">
           $
-        </span>
+        </div>
 
 
         <h2>
@@ -485,7 +610,7 @@
         </h2>
 
 
-        <p>
+        <p class="considering-calculator-copy">
           Use the BCD Bankruptcy &amp; Debt Calculator to organize
           information about your debts, income, expenses, and financial
           situation and better understand the topics and options you
@@ -494,22 +619,27 @@
 
 
         <a
-          class="fresh-options-button"
+          class="considering-calculator-button"
           href="/#calculator"
         >
           Start the Bankruptcy &amp; Debt Calculator →
         </a>
 
 
-        <small>
+        <p class="considering-calculator-note">
           Free • Educational • Takes just a few minutes
-        </small>
+        </p>
 
       </div>
 
 
 
-      <div class="discharge-account-benefits">
+      <div class="considering-calculator-benefits">
+
+        <h3>
+          The calculator can help you:
+        </h3>
+
 
         <p>
           ✓ Review your overall debt situation
@@ -549,9 +679,11 @@
           ↗
         </span>
 
+
         <h2>
           Understand Your Options
         </h2>
+
 
         <p>
           Learn about the major paths and resources you may want
@@ -680,7 +812,7 @@
 
   <!-- DETAILED ANSWERS -->
 
-  <section class="discharge-answers">
+  <section class="discharge-answers considering-answers">
 
     <div class="wrap">
 
@@ -696,9 +828,9 @@
 
         <p>
           Bankruptcy is a legal process handled in federal court.
-          Bankruptcy laws are designed to provide certain individuals
-          and businesses with a process for addressing debts while
-          also providing protections and rights to creditors.
+          Bankruptcy laws provide a process for addressing certain
+          debts while also providing rights and protections to
+          creditors.
         </p>
 
         <p>
@@ -729,8 +861,8 @@
 
         <p>
           BCD can help you understand the bankruptcy process and
-          organize the questions you may want to ask, but deciding
-          whether to file is an individual legal and financial decision.
+          organize questions you may want to ask, but deciding whether
+          to file is an individual legal and financial decision.
         </p>
 
       </article>
@@ -855,8 +987,6 @@
 
 
 
-      <!-- ATTORNEY SECTION -->
-
       <article
         class="discharge-answer"
         id="attorney-help"
@@ -881,8 +1011,8 @@
 
         <p>
           BCD is working to expand resources that can help consumers
-          connect with qualified professionals in their area. Attorney
-          availability through BCD may vary by location.
+          connect with qualified professionals in their area.
+          Attorney availability through BCD may vary by location.
         </p>
 
       </article>
@@ -894,7 +1024,7 @@
 
 
 
-  <!-- OFFICIAL SOURCES -->
+  <!-- SOURCES -->
 
   <section class="discharge-sources">
 
